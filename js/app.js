@@ -113,11 +113,13 @@ for (let i = 0; i < btnRemoveItem.length;i++){
 let trColor = document.querySelectorAll('tr');
 
 for(let i =0; i< trColor.length; i++){
-    if(i%2===0){
-    trColor[i].style.backgroundColor = '#A2DBFA'; 
-    }else{
-        trColor[i].style.backgroundColor = '#77ACF1'; 
-    }
+  if(i%2===0){
+    trColor[i].style.backgroundColor = '#A2DBFA';
+  }else{
+    trColor[i].style.backgroundColor = '#77ACF1';
+  }
 }
+
+
 
 
